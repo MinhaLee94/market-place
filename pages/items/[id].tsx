@@ -16,8 +16,8 @@ const ItemDetail: NextPage = () => {
         </div>
         <div className="mt-5">
           <h1 className="text-3xl font-bold text-gray-900">Galaxy S50</h1>
-          <p className="mt-3 block text-3xl text-gray-900">$140</p>
-          <p className="my-6 text-base text-gray-700">
+          <span className="mt-3 block text-2xl text-gray-900">$140</span>
+          <p className=" my-6 text-gray-700">
             My money&apos;s in that office, right? If she start giving me some
             bullshit about it ain&apos;t there, and we got to go someplace else
             and get it, I&apos;m gonna shoot you in the head then and there.
@@ -28,7 +28,7 @@ const ItemDetail: NextPage = () => {
             motherfucker to get shot. You understand?
           </p>
           <div className="flex items-center justify-between space-x-2">
-            <button className="flex-1 rounded-md bg-orange-500 py-3 font-medium text-white hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2">
+            <button className="flex-1 rounded-md bg-orange-500 py-3 font-medium text-white hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 ">
               Talk to seller
             </button>
             <button className="flex items-center justify-center rounded-md p-3 text-gray-400 hover:bg-gray-100 hover:text-gray-500">
@@ -53,12 +53,12 @@ const ItemDetail: NextPage = () => {
       </div>
       <div>
         <h2 className="text-2xl font-bold text-gray-900">Similar items</h2>
-        <div className="mt-6 grid grid-cols-2 gap-4">
+        <div className=" mt-6 grid grid-cols-2 gap-4">
           {[1, 2, 3, 4, 5, 6].map((_, i) => (
             <div key={i}>
               <div className="mb-4 h-56 w-full bg-slate-300" />
               <h3 className="-mb-1 text-gray-700">Galaxy S60</h3>
-              <span className="text-xs font-medium text-gray-900">$6</span>
+              <span className="text-sm font-medium text-gray-900">$6</span>
             </div>
           ))}
         </div>
