@@ -6,7 +6,7 @@ const Sold: NextPage = () => {
       {[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1].map((_, i) => (
         <div
           key={i}
-          className="flex cursor-pointer justify-between border-b px-4 pb-4"
+          className="flex cursor-pointer  justify-between border-b px-4 pb-5"
         >
           <div className="flex space-x-4">
             <div className="h-20 w-20 rounded-md bg-gray-400" />
@@ -18,8 +18,8 @@ const Sold: NextPage = () => {
               <span className="mt-1 font-medium text-gray-900">$95</span>
             </div>
           </div>
-          <div className="item-end flex justify-end space-x-2">
-            <div className="flex items-center space-x-0.5 text-sm text-gray-600">
+          <div className="flex items-end justify-end space-x-2">
+            <div className="flex items-center space-x-0.5 text-sm  text-gray-600">
               <svg
                 className="h-4 w-4"
                 fill="none"
@@ -36,7 +36,7 @@ const Sold: NextPage = () => {
               </svg>
               <span>1</span>
             </div>
-            <div className="flex items-center space-x-0.5 text-sm text-gray-600">
+            <div className="flex items-center space-x-0.5 text-sm  text-gray-600">
               <svg
                 className="h-4 w-4"
                 fill="none"

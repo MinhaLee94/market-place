@@ -1,10 +1,10 @@
 import type { NextPage } from "next";
 
-const CommunityPostDetail: NextPage = () => {
+const LocalPostDetail: NextPage = () => {
   return (
     <div>
       <span className="my-3 ml-4 inline-flex items-center rounded-full bg-gray-100 px-2.5 py-0.5 text-xs font-medium text-gray-800">
-        동네질문
+        Local question
       </span>
       <div className="mb-3 flex cursor-pointer items-center space-x-3  border-b px-4 pb-3">
         <div className="h-10 w-10 rounded-full bg-slate-300" />
@@ -18,7 +18,7 @@ const CommunityPostDetail: NextPage = () => {
       <div>
         <div className="mt-2 px-4 text-gray-700">
           <span className="font-medium text-orange-500">Q.</span> What is the
-          best mandu restaurant?
+          best restaurant?
         </div>
         <div className="mt-3 flex w-full space-x-5 border-t border-b-[2px] px-4 py-2.5  text-gray-700">
           <span className="flex items-center space-x-2 text-sm">
@@ -36,7 +36,7 @@ const CommunityPostDetail: NextPage = () => {
                 d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
               ></path>
             </svg>
-            <span>궁금해요 1</span>
+            <span>Curious 1</span>
           </span>
           <span className="flex items-center space-x-2 text-sm">
             <svg
@@ -53,7 +53,7 @@ const CommunityPostDetail: NextPage = () => {
                 d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
               ></path>
             </svg>
-            <span>답변 1</span>
+            <span>Comments 1</span>
           </span>
         </div>
       </div>
@@ -66,7 +66,7 @@ const CommunityPostDetail: NextPage = () => {
             </span>
             <span className="block text-xs text-gray-500 ">2시간 전</span>
             <p className="mt-2 text-gray-700">
-              The best mandu restaurant is the one next to my house.
+              The best restaurant is the one next to my house.
             </p>
           </div>
         </div>
@@ -85,4 +85,4 @@ const CommunityPostDetail: NextPage = () => {
   );
 };
 
-export default CommunityPostDetail;
+export default LocalPostDetail;

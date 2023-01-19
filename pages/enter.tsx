@@ -8,7 +8,7 @@ const Enter: NextPage = () => {
   const onPhoneClick = () => setMethod("phone");
   return (
     <div className="mt-16 px-4">
-      <h3 className="text-center text-3xl font-bold">Enter to Market Place</h3>
+      <h3 className="text-center text-3xl font-bold">Enter to Marketplace</h3>
       <div className="mt-12">
         <div className="flex flex-col items-center">
           <h5 className="text-sm font-medium text-gray-500">Enter using:</h5>
